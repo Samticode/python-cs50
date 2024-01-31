@@ -1,19 +1,9 @@
-# name = input("What is your name? ")
+def main():
+    x = int(input("Enter a number for X: "))
+    print("X squared is", square(x))
 
-# print(f'Hello {name}!')
-
-# name = name.strip().title()
-
-# first, last = name.split(' ')
-
-# print(f'Hello {name}!')
-# print(f'Hello Mr.{last}!')
+def square(n):
+    return pow(n, 3)
 
 
-# x = float(input("Enter a number for X: "))
-# y = float(input("Enter a number for Y: "))
-
-# z = round(x + y)
-# z = x / y
-
-# print(f'{z:.2f}')
+main()
